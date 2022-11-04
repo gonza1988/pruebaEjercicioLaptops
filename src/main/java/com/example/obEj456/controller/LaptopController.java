@@ -91,7 +91,7 @@ public class LaptopController {
         return ResponseEntity.noContent().build();
     }
 
-    @DeleteMapping("api/books")
+    @DeleteMapping("api/laptops")
     public ResponseEntity<Laptop> deleteAll() {
         log.info("REST Request for Delete all laptops");
 
